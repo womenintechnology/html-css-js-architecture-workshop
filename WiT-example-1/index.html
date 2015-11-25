@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello world WiT</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <form action="/submitNewsletter.php" method="POST" class="newsletter-form js-newsletter-form">
+
+    <div class="form-field">
+      <label for="user-email">
+        Twój adres email:
+        <input type="email" required name="user-email" id="user-email">
+      </label>
+    </div>
+
+    <div class="form-actions">
+      <input type="submit" value="Wyślij" class="form-button js-button-submit">
+    </div>
+
+  </form>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="assets/js/scripts.js"></script>
+
+</body>
+</html>

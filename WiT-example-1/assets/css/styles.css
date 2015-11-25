@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+/* Style for Newsletter Form
+------------------------------------------------ */
+
+.newsletter-form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #aaa;
+  width: 480px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.form-actions {
+  /* padding: top right bottom left */
+  padding: 10px 0 0 0;
+  margin: 10px 0 0 0;
+  border-top: 1px dotted #aaa;
+}
+
+.form-button {
+  background: #eee;
+  border: 0;
+  padding: 10px 20px;
+}
