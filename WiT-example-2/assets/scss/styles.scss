@@ -1,0 +1,16 @@
+$text-color: #666;
+$background-color: #eee;
+
+$font-family: Helvetica, Arial, sans-serif;
+$font-size-base: 1rem;
+
+$brand-primary: #f00;
+
+// @import "../../bower_components/sass-bootstrap/bootstrap.scss";
+
+// base
+@import "base/normalize";
+@import "base/typography";
+
+// modules
+@import "modules/newsletter-form";

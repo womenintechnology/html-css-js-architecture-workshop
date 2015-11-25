@@ -1,0 +1,22 @@
+{
+  "name": "wit-example-2",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jan Kraus <kraus.jan@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/womenintechnology/html-css-js-architecture-workshop",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "sass-bootstrap": "~3.0.2"
+  }
+}
